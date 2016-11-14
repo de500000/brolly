@@ -1,0 +1,60 @@
+
+#drawing {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 80px;
+}
+
+.rest {
+    padding-top: 300px;
+    width: 60%;
+    float: right;
+}
+
+.header {
+    height: 55px;
+    width: 70%;
+    border-bottom: none;
+}
+
+
+.header img.noose {
+    max-height: 100px;
+    width: auto;
+    text-align: center;
+    display: block;
+    margin-left: 30%;
+}
+
+.guessed {
+    display: none;
+}
+
+.word-holder {
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    border-top: 1px solid #fff0f0;
+    border-bottom: 1px solid #fff0f0;
+    color: #aaa;
+}
+
+.word {
+    color: #000;
+    font-size: 3rem;
+    display: inline-block;
+    padding-left: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.entry {
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    color: #3a3;
+}
+
+input#letter {
+    width: 1.5em;
+}
